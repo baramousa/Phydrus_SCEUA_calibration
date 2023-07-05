@@ -4,7 +4,7 @@ The batch file is run which determine the computing resources from a cluster of 
 
 In the excute.py one can set the SCEUA parameters, such as the maximum number of iterations and the number of complexes (ngs). Refer to (https://github.com/baramousa/spotpy/blob/master/spotpy/algorithms/sceua.py) for more detailed information.
 
-In phyd.py module the Hydrus-1d implemented using phydrus, is set where it recieve the sampled parameters from the spot_setup_hydrus_python.py module and returns the model output (in this example the soil mositure at certain depths).
+In phyd.py module the Hydrus-1d implemented using phydrus, is set where it recieve the sampled parameters from the spot_setup_hydrus_python.py module and returns the model output (in this example the soil mositure at certain depths), see (https://github.com/phydrus/phydrus) for more details.
 
 The spot_setup_hydrus_python.py, initiate the calibration drawing the parameters samples and sending them to the phyd.py module, then recieving the results and evaluating them against the observed data. 
 
