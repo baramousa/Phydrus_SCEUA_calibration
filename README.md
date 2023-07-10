@@ -2,7 +2,7 @@
 Calibration of Hydrus-1d model implemented using (Phydrus) using the SCEUA from Spotpy on a linux machine.
 The batch file is run which determine the computing resources from a cluster of machines, it compiles the source (hydrus-d1) and then execute the 'excute.py' module. 
 
-In the excute.py one can set the SCEUA parameters, such as the maximum number of iterations and the number of complexes (ngs). Refer to (https://github.com/baramousa/spotpy/blob/master/spotpy/algorithms/sceua.py) for more detailed information.
+The start of the calibration is initiated by running the excute.py module, where one can set the SCEUA parameters, such as the maximum number of iterations and the number of complexes (ngs). Refer to (https://github.com/baramousa/spotpy/blob/master/spotpy/algorithms/sceua.py) for more detailed information.
 
 In phyd.py module the Hydrus-1d implemented using phydrus, is set where it recieve the sampled parameters from the spot_setup_hydrus_python.py module and returns the model output (in this example the soil mositure at certain depths), see (https://github.com/phydrus/phydrus) for more details.
 
